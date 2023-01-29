@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "datalake" {
-  bucket = "${var.base_bucket_name}-${var.num_conta}-${var.ambiente}"
+  bucket = "${var.base_bucket_name}-${var.ambiente}"
   tags = {
     IES   = "IGTI"
     CURSO = "EDC"
